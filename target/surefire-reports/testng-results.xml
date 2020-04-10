@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="3" total="6" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="78" started-at="2020-04-03T17:45:54 IST" finished-at="2020-04-03T17:45:54 IST">
+    <groups>
+      <group name="smoke">
+        <method signature="AppiumTest.iOSApps()[pri:0, instance:MasterGroup.AppiumTest@6737fd8f]" name="iOSApps" class="MasterGroup.AppiumTest"/>
+        <method signature="RestAPITest.deletetwitte()[pri:0, instance:MasterGroup.RestAPITest@72b6cbcc]" name="deletetwitte" class="MasterGroup.RestAPITest"/>
+        <method signature="SeleniumTest.browser()[pri:0, instance:MasterGroup.SeleniumTest@a7e666]" name="browser" class="MasterGroup.SeleniumTest"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test name="Test" duration-ms="78" started-at="2020-04-03T17:45:54 IST" finished-at="2020-04-03T17:45:54 IST">
+      <class name="MasterGroup.RestAPITest">
+        <test-method status="PASS" signature="deletetwitte()[pri:0, instance:MasterGroup.RestAPITest@72b6cbcc]" name="deletetwitte" duration-ms="0" started-at="2020-04-03T17:45:54 IST" finished-at="2020-04-03T17:45:54 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deletetwitte -->
+      </class> <!-- MasterGroup.RestAPITest -->
+      <class name="MasterGroup.AppiumTest">
+        <test-method status="PASS" signature="iOSApps()[pri:0, instance:MasterGroup.AppiumTest@6737fd8f]" name="iOSApps" duration-ms="16" started-at="2020-04-03T17:45:54 IST" finished-at="2020-04-03T17:45:54 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- iOSApps -->
+      </class> <!-- MasterGroup.AppiumTest -->
+      <class name="MasterGroup.SeleniumTest">
+        <test-method status="PASS" signature="browser()[pri:0, instance:MasterGroup.SeleniumTest@a7e666]" name="browser" duration-ms="0" started-at="2020-04-03T17:45:54 IST" finished-at="2020-04-03T17:45:54 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browser -->
+      </class> <!-- MasterGroup.SeleniumTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
